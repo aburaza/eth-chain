@@ -1,0 +1,23 @@
+0x10122FdbD0b31be2c5c97Ad76d40F5B5745D404F
+
+0x10122fdbd0b31be2c5c97ad76d40f5b5745d404f
+
+0x85f8AA33d7c849D4CEb58322bEb8D8574a886b88 metamask
+
+_________________________________
+
+personal.listAccounts[0]
+
+eth.hashrate
+
+miner.start()
+
+miner.stop()
+
+_________________________________
+
+password nokia123
+
+geth --datadir "octopod/" init "octopod/octopod.json"
+
+geth --datadir "octopod/" --rpc --networkid 786786 --nodiscover --maxpeers=0 --rpcapi "eth,net,web3,personal,miner,admin" --allow-insecure-unlock --ethstats masternode:s3cr3t@localhost:3000 console
